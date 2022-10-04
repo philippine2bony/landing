@@ -1,0 +1,77 @@
+/* Write some CSS below */
+h1 {
+	color: rgb(150, 70, 70);
+	background-color: rgb(200, 200, 200);
+	color: rgba(150, 70, 70, 1.0);
+	font-family: arial;
+	font-weight: bolder;
+text-align: center;
+border-radius: 50%;
+}
+
+p {
+	color: rgb(50, 0, 20);
+	color: rgba(50, 0, 20, 1);
+	font-weight: bold;
+
+
+}
+
+a {
+	color: rgb(100, 50, 50);
+	color: rgba(100, 50, 50, 0.7);
+	font-style: italic;
+
+}
+
+h2 {color: rgb(150, 70, 70);
+	color: rgba(150, 70, 70, 1.0);
+background-color: rgb(240, 240, 240);
+font-family: arial;
+font-weight: lighter;
+font-size: 20px;
+border: 3px solid pink;
+}
+
+h3 {color: rgb(100, 50, 50);
+	color: rgba(100, 50, 50, 0.7);
+font-style: italic;
+font-size: 15px;
+}
+
+
+
+.banner{
+	background-size: cover;
+	background-position: center;
+	padding: 10px;
+	text-align: center;
+}
+
+.cards{
+	background-position: center;
+	padding: 20px;
+	text-align: center;
+
+}
+
+.cards{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 16px;
+}
+
+.image1 {
+box-shadow: 10px 10px 30px pink;
+border-radius: 50%
+}
+
+.image2 {
+box-shadow: 10px 10px 30px pink;
+border-radius: 50%;
+}
+
+.image3 {
+	box-shadow: 10px 10px 30px pink;
+	border-radius: 50%
+}
